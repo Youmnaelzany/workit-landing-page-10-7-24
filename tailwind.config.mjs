@@ -14,6 +14,11 @@ module.exports = {
       Manrope: ["Manrope", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        'hero-desktop': "url('/public/images/images/bg-hero-desktop.svg')",
+        'hero-tablet': "url('/public/images/images/bg-hero-tablet.svg')",
+        'hero-mobile': "url('/public/images/images/bg-hero-mobile.svg')",
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
